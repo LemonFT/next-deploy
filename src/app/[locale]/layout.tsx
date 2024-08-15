@@ -13,8 +13,6 @@ export const metadata: Metadata = {
   description: "ᴀᴛᴛᴇɴᴅᴀɴɴᴄᴇ-ꜰᴛ",
 };
 
-const locales: string[] = ['en', 'de'];
-
 export default async function RootLayout({
   children,
   params: {locale},

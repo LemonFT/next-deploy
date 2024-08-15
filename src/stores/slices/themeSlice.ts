@@ -7,9 +7,13 @@ interface ThemeState {
 const themeCache = (): 'light' | 'dark' => {
   if (typeof window !== 'undefined' && window.localStorage) {
     const theme = localStorage.getItem('theme');
-    return (theme === 'light' || theme === 'dark') ? theme : 'light';
+    if(!theme){
+      localStorage.setItem('theme', 'dark');
+    }
+    return (theme === 'light' || theme === 'dark') ? theme : 'dark';
   } else {
-    return 'light';
+    localStorage.setItem('theme', 'dark');
+    return 'dark';
   }
 }
 const initialState: ThemeState = {

@@ -6,7 +6,9 @@ import { Provider } from "react-redux";
 function StoreProvider({children}:any) {
     useEffect(() => {
         if(localStorage?.getItem('theme')){
-            document.body.classList.add(localStorage.getItem('theme') === 'dark' ? 'darkTheme' : 'lightTheme');
+            const theme = localStorage.getItem('theme') === 'dark' ? 'darkTheme' : 'lightTheme'
+            document.body.classList.add(theme);
+            localStorage.setItem('theme', theme)
         }
     })
     return (
