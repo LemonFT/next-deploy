@@ -1,0 +1,34 @@
+{
+    "Index": {
+      "title": "Hello world!"
+    },
+    "Auth": {
+      "login": "Login",
+      "logout": "Logout",
+      "register": "Register",
+      "forgotPassword": "Forgot password?",
+      "studentCode": "Student ID",
+      "password": "Password",
+      "requestEnterCode": "Enter the confirmation code from your email",
+      "getCode": "Get code",
+      "verify": "Verify", 
+      "close": "Close",
+      "switching_to": "Switching to",
+      "you_want_to_switch_to": "You want to switch to",
+      "english": "English",
+      "vietnamese": "Vietnamese"
+    },
+    "Sidebar": {
+      "explore": "Explore",
+      "home": "Home",
+      "classes": "Classes",
+      "statistics": "Statistics",
+      "chat": "Chat",
+      "settings": "Settings",
+      "close": "Close",
+      "switching_to": "Switching to",
+      "you_want_to_switch_to": "You want to switch to",
+      "english": "English",
+      "vietnamese": "Vietnamese"
+    }
+  }

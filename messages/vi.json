@@ -1,0 +1,34 @@
+{
+    "Index": {
+      "title": "Xin chao!"
+    }, 
+    "Auth": {
+      "login": "Đăng nhập",
+      "logout": "Đăng xuất",
+      "register": "Đăng ký",
+      "forgotPassword": "Quên mật khẩu?",
+      "studentCode": "Mã số sinh viên",
+      "password": "Mật khẩu",
+      "requestEnterCode": "Nhập mã xác nhận từ email của bạn",
+      "getCode": "Lấy mã xác nhận",
+      "verify": "Xác minh",
+      "close": "Thoát",
+      "switching_to": "Chuyển sang",
+      "you_want_to_switch_to": "Bạn muốn chuyển sang",
+      "english": "Tiếng Anh",
+      "vietnamese": "Tiếng Việt"
+    },
+    "Sidebar": {
+      "explore": "Khám phá",
+      "home": "Trang chủ",
+      "classes": "Lớp học",
+      "statistics": "Thống kê",
+      "chat": "Trò chuyện",
+      "settings": "Cài đặt",
+      "close": "Thoát",
+      "switching_to": "Chuyển sang",
+      "you_want_to_switch_to": "Bạn muốn chuyển sang",
+      "english": "Tiếng Anh",
+      "vietnamese": "Tiếng Việt"
+    }
+  }
